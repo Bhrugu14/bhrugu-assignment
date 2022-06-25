@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+input {
+  border: none;
+  background-color: transparent;
+  resize: none;
+  outline: none;
+  border-width: 0px;
+  border: none;
+  outline: none;
+}
+.errorPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex: 1;
+  color: red;
+  background-color: rgb(62, 79, 164);
+}
+.errorPage > label {
+  font-size: large;
+  color: white;
+  margin-bottom: 10px;
+}
